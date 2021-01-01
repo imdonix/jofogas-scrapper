@@ -1,11 +1,16 @@
 {
   "name": "jofogas-scrapper",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Simple scrapper for Jofogas.hu",
   "main": "scrap.js",
   "author": "donix",
   "license": "ISC",
-  "repository": {
+  "scripts": 
+  {
+    "start": "node test.js"
+  },
+  "repository": 
+  {
     "type": "git",
     "url": "https://github.com/imdonix/jofogas-scrapper.git"
   },

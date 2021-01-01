@@ -16,10 +16,3 @@ scarp("iphone 11", settings, items =>
         console.log(item)
     console.log("done")
 })
-
-scarp("iphone 11", null, items =>
-{  
-    for(const item of items)
-        console.log(item)
-    console.log("done")
-})

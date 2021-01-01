@@ -2,6 +2,13 @@
 
 Simple scrapper for Jofogas.hu in Node.js. 
 
+## Installation
+
+
+```bash
+npm install imdonix/jofogas-scrapper --save
+```
+
 ## Usage
 
 ```javascript
@@ -23,4 +30,19 @@ scarp("iphone 11", settings, items =>
         console.log(item)
     console.log("done")
 })
+```
+
+```javascript
+...,
+{
+  id: '113504691',
+  pos: 271,
+  name: 'Új iphone 11 64Gb több színben Akció',
+  price: 225000,
+  image: 'https://img.jofogas.hu/bigthumbs/Uj_iphone_11_64Gb_tobb_szinben_Akcio_285201850034264.jpg',
+  url: 'https://www.jofogas.hu/budapest/Uj_iphone_11_64Gb_tobb_szinben_Akcio_113504691.htm',
+  company: true,
+  post: false
+}
+done
 ```

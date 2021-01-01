@@ -5,6 +5,10 @@
   "main": "scrap.js",
   "author": "donix",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imdonix/jofogas-scrapper.git"
+  },
   "dependencies": 
   {
     "encoding": "^0.1.13",

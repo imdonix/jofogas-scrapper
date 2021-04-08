@@ -1,7 +1,7 @@
 {
-  "name": "jofogas-scrapper",
-  "version": "0.0.1",
-  "description": "Simple scrapper for Jofogas.hu",
+  "name": "jofogas-scraper",
+  "version": "1.0.0",
+  "description": "Simple scraper for jofogas.hu platform",
   "main": "scrap.js",
   "author": "donix",
   "license": "ISC",

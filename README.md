@@ -1,18 +1,21 @@
-# Jófogás.hu scrapper
+# Jófogás.hu scraper
 
-Simple scrapper for Jofogas.hu in Node.js. 
+Simple scraper for `jofogas.hu` for node.js
+Works also with:
+- `ingatlan.jofogas.hu`
+- `auto.jofogas.hu`
 
 ## Installation
 
 
 ```bash
-npm install imdonix/jofogas-scrapper --save
+npm install imdonix/jofogas-scraper --save
 ```
 
 ## Usage
 
 ```javascript
-const scarp = require('jofogas-scrapper')
+const scarp = require('jofogas-scraper')
 
 const settings = {
     depht: 10,                                  // Check the first X page. Default: 5
@@ -33,7 +36,7 @@ scarp("iphone 11", settings, items =>
 ```
 
 ```javascript
-...,
+...
 {
   id: '113504691',
   pos: 271,

@@ -54,7 +54,7 @@ function processDomItem(item)
             pos: parseInt(metaAttributes.find(prop => prop.itemprop == 'position').content),
             name: metaAttributes.find(prop => prop.itemprop == 'name').content,
             price: parseInt(itemRoot.querySelector('.price-value').attributes.content),
-            image: itemRoot.querySelector('img').attributes['data-src'],
+            image: itemRoot.querySelector('img').attributes['src'],
             url: itemRoot.querySelector('.subject').attributes.href,
             company: itemRoot.querySelector('.badge-company_ad') != null,
             post: itemRoot.querySelector('.badge-box') != null
